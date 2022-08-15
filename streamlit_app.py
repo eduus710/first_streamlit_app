@@ -40,8 +40,6 @@ try:
     streamlit.dataframe(get_fruityvice_data(fruit_choice))
 except URLError as e:
   streamlit.error()
-  
-streamlit.stop()
 
 streamlit.header("The fruit load list contains:")
 
